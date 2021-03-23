@@ -1,0 +1,32 @@
+Tensorflow and Keras Learning Documentation #1
+===============================================
+
+# Sources
+
+- https://www.youtube.com/watch?v=qFJeN9V1ZsI
+- https://www.youtube.com/watch?v=tPYj3fFJGjk
+
+
+# Updates
+
+- Tensorflow and Keras are Machine Learning Libraries to facilitate easy and fast user implementation of complex tasks in the machine learning process.
+- Keras is officially associated with Tensorflow which is owned by Google.
+- In Data Processing, "Samples" refer to input/input data while "Labels" refer to target/goal data.
+- Sequential Models receive data for training whenever the fit function is called.
+- The fit function takes arguments like x and y, where x is the train data and y is the test data. i.e., x is the input and y is the target.
+- Machine Learning has three broad classifications:
+        = Supervised Learning,
+        = Unsupervised Learning,
+        = Reinforcement Learning.
+
+= Supervised Learning: 
+        - The user gives the input and the desired target output classification in terms of samples and labels.
+
+= Unsupervised Learning:
+        - The user gives only the input data. The model learns by classifying the data together into clusters based on similarities.
+
+= Reinforcement Learning:
+        - This type of Learning is based on an agent-environment-reward loop based technique.
+        
+
+# Looking forward to Learning more!
