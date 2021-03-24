@@ -1,0 +1,22 @@
+Tensorflow and Keras Learning Documentation #2
+===============================================
+
+# Sources
+
+- https://www.youtube.com/watch?v=qFJeN9V1ZsI
+- https://www.youtube.com/watch?v=tPYj3fFJGjk
+
+# Learning Updates
+
+- Learnt to build and train a sequential model to predict the average age group of people who get the most side effects from vaccine.
+- Looked into Linear Regression and best fit techniques.
+- Learnt the math behind tensors and linear Regression using graphs.
+
+- Tensors - n dimensional vector values stored in matrix format.
+- Rank/Degree of a tensor - The deepest level of a nested list in a tensor.
+
+- tf.rank - used to determine the rank of a tensor.
+- tf.shape - gives the shape of the tensor, i.e., the number of rows and columns.
+
+
+# Looking forward to Learning more!
