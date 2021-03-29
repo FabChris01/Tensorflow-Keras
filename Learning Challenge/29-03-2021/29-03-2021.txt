@@ -1,0 +1,25 @@
+Tensorflow and Keras Learning Challenge Day 1
+===============================================
+
+# Sources:
+
+- https://www.tensorflow.org/tutorials/keras/classification
+- https://www.tensorflow.org/guide/effective_tf2
+
+
+# Learning Updates:
+
+- Learnt about Tensorflow 2 amd the multiple changes that have been made.
+- Tensorflow 2 has has made Tensorflow users more productive by:
+    = removing redundant APIs, 
+    = making APIs more consistent 
+    = integrating new features like Eager Execution.
+    = eliminitaing the global namespaces mechanism in favour of the default mechanism, i.e., if you lose track of a variable, it gets garbage collected.
+    = replacing functions with sessions, thus allowing Tensorflow 2.0 to gain all the benefirst of the graph mode, such as better portability and performance.
+
+- Learnt about basic Image Classification in Mahcine Learning using Tensorflow and Keras.
+- Built and trained a model using the Fashion MNIST dataset to classify multiple classes of apparel.
+- Also Learnt about Data preprocessing and how to test the model and evaluate it.
+
+
+# Looking forward to Learning more!
