@@ -1,0 +1,24 @@
+Tensorflow and Keras Learning Challenge Day 2
+===============================================
+
+# Sources:
+
+- https://www.tensorflow.org/tutorials/keras/text_classification
+- https://www.tensorflow.org/guide/migrate
+
+
+# Learning Updates:
+
+- Learnt how to manually upgrade TF1 code to better suit TF2 standards.
+- Code upgraded from TF1 to TF2 will only carry the syntactical changes but will not enjoy the improved advancements of TF2.
+- In order to take advantage of performance optimizations and simplified API calls, the following changes have to be made:
+    = Replace v1.Session.run calls
+    = Use Python objects to track variables and losses
+    = Upgrade your training loops
+    = Upgrade your data input pipelines
+    = Migrate off compat.v1 symbols
+- Also Learnt how to build a simple text classification model that performs emotion analysis on a IMDB reviews dataset to score each review.
+- Performed data preprocessing on the IMDB dataset and split it into training, testing and validation datasets. This data was then fed into the classifier model and trained.
+
+
+# Looking forward to Learning more!
