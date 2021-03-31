@@ -1,0 +1,22 @@
+Tensorflow and Keras Learning Challenge Day 3
+===============================================
+
+# Sources:
+
+- https://www.tensorflow.org/tutorials/keras/text_classification_with_hub
+- https://www.tensorflow.org/guide/upgrade
+
+
+# Learning Updates:
+
+- Learnt how to upgrade TF1 code to TF2 code.
+- The tf_upgrade_v2 -h command provides us with multiple functionalities.
+- To perform this action, one must have tensorflow 2 installed.
+- One can either upgrade multiple files and folders or just upgrade a single file.
+- For either case, the upgrade script takes in 3 arguments:
+    = the root working directory/ name
+    = output file/folder name
+    = A text file name
+- All the code in the speficied directory gets upgraded to tensorflow 2 and a report of all the conversions gets stored as a text file.
+
+# Looking forward to Learning more!
