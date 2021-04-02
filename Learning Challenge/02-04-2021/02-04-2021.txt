@@ -1,0 +1,23 @@
+Tensorflow and Keras Learning Challenge Day 5
+===============================================
+
+# Sources:
+
+- https://www.tensorflow.org/tutorials/keras/overfit_and_underfit
+- https://www.tensorflow.org/guide/tensor
+
+
+# Learning Updates:
+
+- Learnt about Tensors. 
+- Tensors are essentially multi-dimentional arrays with a uniform type. 
+- They are what you would call matrices in math.
+- All tensors are immutable in nature. Tensors cant be updated.
+- There are 2 types of Tensors:
+    = Ragged Tensors
+    = Sparse Tensors.
+- In Ragged Tensors, the number of elements along some axis varies.
+- In Sparse Tensors, your data is sparse, like a very wide embedding space.
+- Also Learnt about Overfitting and Underfitting and built a basic model to demonstrate them.
+
+# Looking forward to Learning more!

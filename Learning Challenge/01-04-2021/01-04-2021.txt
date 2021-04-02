@@ -18,7 +18,7 @@ Tensorflow and Keras Learning Challenge Day 3
 - A major benefit of eager execution is that all the functionality of the host language is available while your model is executing.
 - Also Learnt about basic regression. 
 - In regression, the aim is to make predictions based on a pattern of continous values.
-- We looked into different methods of training a model for regression, to get the best possible results.
+- We also looked into different methods of training a model for regression, to get the best possible results.
 
 
 # Looking forward to Learning more!
