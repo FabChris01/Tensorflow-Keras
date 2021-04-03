@@ -1,0 +1,23 @@
+Tensorflow and Keras Learning Challenge Day 6
+===============================================
+
+# Sources:
+
+- https://www.tensorflow.org/tutorials/keras/save_and_load
+- https://www.tensorflow.org/guide/variable
+
+
+# Learning Updates:
+
+- Learnt how to Save a trained model in the HDF5 format
+- HDF5 is a format provided by keras for saving models. 
+- It is denoted by the extension .5
+- I then learnt how to load a saved model and use it for predictions.
+- Saving models has multiple advantages like
+    = being able to share your model with others
+    = Avoiding repetiitive training and,
+    = reusing your model for future predictions.
+- I also learnt about variables in tensorflow and how to create, update and manage instances of tf.Variable in tensorflow.
+
+
+# Looking forward to Learning more!
