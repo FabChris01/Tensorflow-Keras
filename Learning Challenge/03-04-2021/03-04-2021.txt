@@ -11,7 +11,7 @@ Tensorflow and Keras Learning Challenge Day 6
 
 - Learnt how to Save a trained model in the HDF5 format
 - HDF5 is a format provided by keras for saving models. 
-- It is denoted by the extension .5
+- It is denoted by the extension .h5
 - I then learnt how to load a saved model and use it for predictions.
 - Saving models has multiple advantages like
     = being able to share your model with others
