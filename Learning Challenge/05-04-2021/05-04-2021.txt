@@ -1,0 +1,22 @@
+Tensorflow and Keras Learning Challenge Day 8
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/tutorials/load_data/images
+- https://www.tensorflow.org/guide/intro_to_graphs
+
+
+# Learning Updates:
+- Learnt how to load and preprocess an image dataset in three ways. 
+- First, using high-level Keras preprocessing utilities and layers to read a directory of images on disk. 
+- second, writing your own input pipeline from scratch using tf.data.
+- Third, downloading a dataset from the large catalog available in TensorFlow Datasets.
+- Built and trained models to demonstrate each.
+- Learnt how TensorFlow allows you to make simple changes to your code to get graphs, 
+- Also learnt how graphs are stored and represented, and how you can use them to accelerate your models.
+- Graphs are data structures that contain a set of tf.Operation objects, which represent units of computation; and tf.Tensor objects, which represent the units of data that flow between operations. 
+- They are defined in a tf.Graph context.
+- Since graphs are data structures, they can be saved, run, and restored all without the original Python code.
+
+
+# Looking forward to Learning more!
