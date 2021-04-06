@@ -1,0 +1,22 @@
+Tensorflow and Keras Learning Challenge Day 9
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/tutorials/load_data/csv
+- https://www.tensorflow.org/guide/intro_to_modules
+
+
+# Learning Updates:
+- Learnt how to use CSV data with tensorflow
+- There are 2 steps to load CSV data:
+    = Loading the data off the disk
+    = Pre-processing the data into a form suitable for training
+- Built and trained a model to demonstrate it.
+- The simplest way to train a TensorFlow model on a small CSV dataset  is to load it into memory as a pandas Dataframe or a NumPy array.
+- The abalone dataset is a good example of a small dataset, so used it for training.
+- Also learnt how to define, save and restore a model.
+- A model is basically a function that computes something on tensors
+- It contains variables that can be updated on training.
+
+
+# Looking forward to Learning more!
