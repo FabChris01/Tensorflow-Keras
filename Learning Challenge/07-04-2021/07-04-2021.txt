@@ -1,0 +1,18 @@
+Tensorflow and Keras Learning Challenge Day 10
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/tutorials/load_data/numpy
+- https://www.tensorflow.org/guide/basic_training_loops
+
+
+# Learning Updates:
+- Learnt how to load data from NumPy arrays into a tf.data.Dataset
+- Demonstrated how to load a MNISt dataset from a .npz file. 
+- The best part of NumPy arrays is that, the source file from which the data in the NumPy array is taken doesn't really matter.
+- I applied what i learnt yesterday about tensors, variables, gradient tapes and modules to train models
+- Tensorflow contains a high-level neural network API called tf.Keras API
+- tf.Keras API provides useful abstractions to reduce boilerplate.
+
+
+# Looking forward to Learning more!
