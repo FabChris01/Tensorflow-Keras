@@ -1,0 +1,21 @@
+Tensorflow and Keras Learning Challenge Day 12
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/tutorials/load_data/text
+- https://www.tensorflow.org/guide/ragged_tensor
+
+
+# Learning Updates:
+- Learnt about the different methods of data preprocessing.
+- Used Keras utilities, layers and other lower-level utilities like tf.data.TextLineDataset to load text files, and tf.text to preprocess the data for finer-grain control.
+- Also learnt about Ragged Tensors
+- Ragged Tensors are the tensorflow equivalent of nested variable-length lists. They make it easy to store and process data with non-uniform shapes
+- These include: 
+    = Variable-length features, such as the set of actors in a movie.
+    = Batches of variable-length sequential inputs, such as sentences or video clips.
+    = Hierarchical inputs, such as text documents that are subdivided into sections, paragraphs, sentences, and words,
+    = Individual fields in structured inputs, such as protocol buffers.
+
+
+# Looking forward to Learning more!

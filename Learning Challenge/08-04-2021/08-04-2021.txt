@@ -1,0 +1,19 @@
+Tensorflow and Keras Learning Challenge Day 11
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/tutorials/load_data/pandas_dataframe
+- https://www.tensorflow.org/guide/advanced_autodiff
+
+
+# Learning Updates:
+- Learnt how to load pandas dataframes into a tf.data.Dataset.
+- Built and trained a model to demonstrate this using a small dataset provided by the Cleveland Clinic Foundation for Heart Disease.
+- This dataset contains several hundred rows in CSV format.
+- Each row describes a patient, and each column describes an attribute.
+- The model was trained on this information to predict whether a patient has heart disease, 
+- This is a binary classification task in this dataset.
+- We also focused on the less common features of the tf.GradientTape api in automatic differentiation.
+
+
+# Looking forward to Learning more!
