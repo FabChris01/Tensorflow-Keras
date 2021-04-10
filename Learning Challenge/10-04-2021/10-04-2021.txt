@@ -1,0 +1,21 @@
+Tensorflow and Keras Learning Challenge Day 13
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/tutorials/load_data/unicode
+- https://www.tensorflow.org/guide/sparse_tensor
+
+
+# Learning Updates:
+- Natural language processing often involves handling different languages and character sets
+- To solve this problem, the Unicode encoding system is used.
+- Unicode is a standard encoding system used to represent characters from almost all languages
+- Each character is encoded using a unique integer code point between 0 and 0x10FFFF. ww
+- Unicode string is a sequence of zero or more code points.
+- Learnt how to separate Unicode strings into tokens based on script detection.
+- When working with tensors that contain a lot of zero values, it is important to store them in a space- and time-efficient manner. 
+- Sparse tensors enable efficient storage and processing of tensors that contain a lot of zero values.
+- Sparse tensors are used extensively in encoding schemes like TF-IDF as part of data pre-processing in NLP applications and for pre-processing images with a lot of dark pixels in computer vision applications.
+
+
+# Looking forward to Learning more!
