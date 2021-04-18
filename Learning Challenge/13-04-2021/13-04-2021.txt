@@ -1,0 +1,19 @@
+Tensorflow and Keras Learning Challenge Day 16
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/tutorials/load_data/tfrecord
+- https://www.tensorflow.org/guide/keras/sequential_model
+
+
+# Learning Updates:
+- The TFRecord format is a simple format for storing a sequence of binary records.
+- Protocol buffers are a cross-platform, cross-language library for efficient serialization of structured data.
+- Protocol messages are defined by .proto files
+- These are often the easiest way to understand a message type.
+- The tf.train.Example message (or protobuf) is a flexible message type that represents a {"string": value} mapping. 
+- It is designed for use with TensorFlow and is used throughout the higher-level APIs such as TFX.
+- A Sequential model is appropriate for a plain stack of layers where each layer has exactly one input tensor and one output tensor.
+
+
+# Looking forward to Learning more!

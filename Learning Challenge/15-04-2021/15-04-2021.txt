@@ -1,0 +1,17 @@
+Tensorflow and Keras Learning Challenge Day 18
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/tutorials/customization/custom_layers
+- https://www.tensorflow.org/guide/keras/train_and_evaluate
+
+
+# Learning Updates:
+- Most of the time when writing code for machine learning models you want to operate at a higher level of abstraction than individual operations and manipulation of individual variables.
+- TensorFlow includes the full Keras API in the tf.keras package.
+- The Keras layers are very useful when building your own models.
+- Model training & evaluation works strictly in the same way across every kind of Keras model.
+- Sequential models, models built with the Functional API, and models written from scratch via model subclassing.
+
+
+# Looking forward to Learning more!

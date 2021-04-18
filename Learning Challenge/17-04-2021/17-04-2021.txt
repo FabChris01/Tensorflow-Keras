@@ -1,0 +1,26 @@
+Tensorflow and Keras Learning Challenge Day 20
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/tutorials/distribute/keras
+- https://www.tensorflow.org/guide/keras/save_and_serialize
+
+
+# Learning Updates:
+- The tf.distribute.Strategy API provides an abstraction for distributing your training across multiple processing units. 
+- The goal is to allow users to enable distributed training using existing models and training code, with minimal changes.
+- A Keras model consists of multiple components:
+
+1) The architecture, or configuration, which specifies what layers the model contain, and how they're connected.
+2) A set of weights values (the "state of the model").
+3) An optimizer (defined by compiling the model).
+4) A set of losses and metrics (defined by compiling the model or calling add_loss() or add_metric()).
+
+- The Keras API makes it possible to save all of these pieces to disk at once, or to only selectively save some of them:
+
+1) Saving everything into a single archive in the TensorFlow SavedModel format (or in the older Keras H5 format). This is the standard practice.
+2) Saving the architecture / configuration only, typically as a JSON file.
+3) Saving the weights values only. This is generally used when training the model.
+
+
+# Looking forward to Learning more!

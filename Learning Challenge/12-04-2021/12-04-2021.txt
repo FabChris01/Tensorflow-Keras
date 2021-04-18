@@ -1,0 +1,19 @@
+Tensorflow and Keras Learning Challenge Day 15
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/tutorials/tensorflow_text/subwords_tokenizer
+- https://www.tensorflow.org/guide/tensor_slicing
+
+
+# Learning Updates:
+- The main advantage of a subword tokenizer is that it interpolates between word-based and character-based tokenization. 
+- Common words get a slot in the vocabulary, but the tokenizer can fall back to word pieces and individual characters for unknown words.
+- When working on ML applications such as object detection and NLP, it is sometimes necessary to work with sub-sections (slices) of tensors. 
+- For example, if your model architecture includes routing, where one layer might control which training example gets routed to the next layer. 
+- In this case, you could use tensor slicing ops to split the tensors up and put them back together in the right order.
+- In NLP applications, you can use tensor slicing to perform word masking while training. 
+- For example, you can generate training data from a list of sentences by choosing a word index to mask in each sentence, taking the word out as a label, and then replacing the chosen word with a mask token.
+
+
+# Looking forward to Learning more!

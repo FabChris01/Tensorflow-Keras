@@ -1,0 +1,20 @@
+Tensorflow and Keras Learning Challenge Day 21
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/tutorials/distribute/custom_training
+- https://www.tensorflow.org/guide/keras/preprocessing_layers
+
+
+# Learning Updates:
+- Learnt how to use tf.distribute.Strategy with custom training loops. 
+- Trained a simple CNN model on the fashion MNIST dataset. 
+- The fashion MNIST dataset contains 60000 train images of size 28 x 28 and 10000 test images of size 28 x 28.
+- Used custom training loops to train our model since they give flexibility and a greater control on training. 
+- Also, It is easier to debug the model and the training loop.
+- The Keras preprocessing layers API allows developers to build Keras-native input processing pipelines. 
+- These input processing pipelines can be used as independent preprocessing code in non-Keras workflows, combined directly with Keras models, and exported as part of a Keras SavedModel.
+- With Keras preprocessing layers, you can build and export models that are truly end-to-end: models that accept raw images or raw structured data as input; models that handle feature normalization or feature value indexing on their own.
+
+
+# Looking forward to Learning more!

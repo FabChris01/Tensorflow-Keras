@@ -1,0 +1,21 @@
+Tensorflow and Keras Learning Challenge Day 17
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/tutorials/customization/basics
+- https://www.tensorflow.org/guide/keras/functional
+
+
+# Learning Updates:
+- Learnt how to:
+1) Import the required package
+2) Create and use tensors
+3) Use GPU acceleration
+4) Demonstrate tf.data.Dataset
+- The Keras functional API is a way to create models that are more flexible than the tf.keras.Sequential API. 
+- The functional API can handle models with non-linear topology, shared layers, and even multiple inputs or outputs.
+- The main idea is that a deep learning model is usually a directed acyclic graph (DAG) of layers. 
+- So the functional API is a way to build graphs of layers.
+
+
+# Looking forward to Learning more!

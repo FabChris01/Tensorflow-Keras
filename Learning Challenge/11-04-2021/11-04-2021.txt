@@ -1,0 +1,19 @@
+Tensorflow and Keras Learning Challenge Day 14
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/tutorials/tensorflow_text/intro
+- https://www.tensorflow.org/guide/tf_numpy
+
+
+# Learning Updates:
+- TensorFlow Text provides a collection of text related classes and ops ready to use with TensorFlow 2.0. 
+- The library can perform the preprocessing regularly required by text-based models.
+- It also includes other features useful for sequence modeling not provided by core TensorFlow.
+- The benefit of using these ops in your text preprocessing is that they are done in the TensorFlow graph. 
+- You do not need to worry about tokenization in training being different than the tokenization at inference, or managing preprocessing scripts.
+- TensorFlow implements a subset of the NumPy API, available as tf.experimental.numpy. 
+- This allows running NumPy code, accelerated by TensorFlow, while also allowing access to all of TensorFlow's APIs.
+
+
+# Looking forward to Learning more!

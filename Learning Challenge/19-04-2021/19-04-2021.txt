@@ -1,0 +1,19 @@
+Tensorflow and Keras Learning Challenge Day 22
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/tutorials/distribute/multi_worker_with_keras
+- https://www.tensorflow.org/guide/keras/customizing_what_happens_in_fit
+
+
+# Learning Updates:
+- Learnt multi-worker distributed training with Keras model using tf.distribute.Strategy API, specifically tf.distribute.MultiWorkerMirroredStrategy. 
+- With the help of this strategy, a Keras model that was designed to run on single-worker can seamlessly work on multiple workers with minimal code change.
+- Distributed Training in TensorFlow guide is available for an overview of the distribution strategies TensorFlow supports for those interested in a deeper understanding of tf.distribute.Strategy APIs.
+- Learnt about progressive disclosure of complexity which is a core principle of Keras.
+- When you need to customize what fit() does, you should override the training step function of the Model class. 
+- This is the function that is called by fit() for every batch of data. 
+- You will then be able to call fit() as usual, and it will be running your own learning algorithm.
+
+
+# Looking forward to Learning more!
