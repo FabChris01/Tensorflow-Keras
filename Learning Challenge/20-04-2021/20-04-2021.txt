@@ -1,0 +1,17 @@
+Tensorflow and Keras Learning Challenge Day 23
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/guide/keras/writing_a_training_loop_from_scratch
+- https://www.tensorflow.org/tutorials/distribute/multi_worker_with_ctl
+
+# Learning Updates:
+- Learnt multi-worker training with custom training loop API, distributed via MultiWorkerMirroredStrategy, so a Keras model designed to run on single-worker can seamlessly work on multiple workers with minimal code change.
+- Used custom training loops to train the model because they give us flexibility and a greater control on training. 
+- Moreover, it is easier to debug the model and the training loop.
+- Keras provides default training and evaluation loops, fit() and evaluate().
+- If you want to customize the learning algorithm of your model while still leveraging the convenience of fit(), you can subclass the Model class and implement your own train_step() method, which is called repeatedly during fit().
+- If you want very low-level control over training & evaluation, you should write your own training & evaluation loops from scratch.
+
+
+# Looking forward to Learning more!
