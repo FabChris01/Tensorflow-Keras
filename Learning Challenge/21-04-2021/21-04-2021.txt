@@ -1,0 +1,17 @@
+Tensorflow and Keras Learning Challenge Day 24
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/tutorials/distribute/parameter_server_training#dispatch_training_steps_to_remote_workers
+- https://www.tensorflow.org/guide/keras/rnn
+
+# Learning Updates:
+- Parameter server training is a common data-parallel method to scale up model training on multiple machines. 
+- A parameter server training cluster consists of workers and parameter servers. 
+- Variables are created on parameter servers and they are read and updated by workers in each step. 
+- By default, workers read and update these variables independently without synchronizing with each other. 
+- This is why sometimes parameter server-style training is called asynchronous training.
+- Recurrent neural networks (RNN) are a class of neural networks that is powerful for modeling sequence data such as time series or natural language.
+- Schematically, a RNN layer uses a for loop to iterate over the timesteps of a sequence, while maintaining an internal state that encodes information about the timesteps it has seen so far.
+
+# Looking forward to Learning more!
