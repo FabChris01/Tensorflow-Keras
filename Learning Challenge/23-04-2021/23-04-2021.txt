@@ -1,0 +1,18 @@
+Tensorflow and Keras Learning Challenge Day 26
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/guide/keras/custom_callback
+- https://www.tensorflow.org/tutorials/distribute/input
+
+# Learning Updates:
+- The tf.distribute APIs provide an easy way for users to scale their training from a single machine to multiple machines. 
+- When scaling their model, users also have to distribute their input across multiple devices. 
+- tf.distribute provides APIs using which you can automatically distribute your input across devices.
+- A callback is a powerful tool to customize the behavior of a Keras model during training, evaluation, or inference. 
+- Examples include tf.keras.callbacks.
+- TensorBoard to visualize training progress and results with TensorBoard, or tf.keras.callbacks.
+- ModelCheckpoint to periodically save your model during training.
+
+
+# Looking forward to Learning more!
