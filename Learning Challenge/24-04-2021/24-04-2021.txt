@@ -1,0 +1,17 @@
+Tensorflow and Keras Learning Challenge Day 27
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/guide/keras/transfer_learning
+- https://www.tensorflow.org/tutorials/images/cnn
+
+# Learning Updates:
+- Learnt how to train a simple Convolutional Neural Network (CNN) to classify CIFAR images. 
+- Since the Keras Sequential API is used, creating and training our model takes just a few lines of code.
+- Transfer learning consists of taking features learned on one problem, and leveraging them on a new, similar problem. 
+- For instance, features from a model that has learned to identify racoons may be useful to kick-start a model meant to identify tanukis.
+- Fine-tuning, consists of unfreezing the entire model you obtained above (or part of it), and re-training it on the new data with a very low learning rate. 
+- This can potentially achieve meaningful improvements, by incrementally adapting the pretrained features to the new data.
+
+
+# Looking forward to Learning more!
