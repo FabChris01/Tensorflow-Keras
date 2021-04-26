@@ -1,0 +1,17 @@
+Tensorflow and Keras Learning Challenge Day 28
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/tutorials/images/classification
+- https://www.tensorflow.org/guide/keras/training_keras_models_on_cloud
+
+# Learning Updates:
+- TensorFlow Cloud is a Python package that provides APIs for a seamless transition from local debugging to distributed training in Google Cloud. 
+- It simplifies the process of training TensorFlow models on the cloud into a single, simple function call, requiring minimal setup and no changes to your model. 
+- TensorFlow Cloud handles cloud-specific tasks such as creating VM instances and distribution strategies for your models automatically. 
+- Also Learnt how to classify images of flowers. 
+- We Created an image classifier using a keras.Sequential model
+- Then the data was loaded using preprocessing.image_dataset_from_directory
+
+
+# Looking forward to Learning more!
