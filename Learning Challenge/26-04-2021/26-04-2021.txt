@@ -1,0 +1,19 @@
+Tensorflow and Keras Learning Challenge Day 29
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/tutorials/images/transfer_learning
+- https://www.tensorflow.org/guide/create_op 
+
+# Learning Updates:
+- Learnt how to classify images of cats and dogs by using transfer learning from a pre-trained network.
+- A pre-trained model is a saved network that was previously trained on a large dataset, typically on a large-scale image-classification task. 
+- In transfer learning, you either use the pretrained model as is or use transfer learning to customize this model to a given task.
+- Learnt how to create a custom C++ op. 
+- There are several reasons why you might want to create a custom C++ op:
+= It's not easy or possible to express your operation as a composition of existing ops.
+= It's not efficient to express your operation as a composition of existing primitives.
+= You want to hand-fuse a composition of primitives that a future compiler would find difficult fusing.
+
+s
+# Looking forward to Learning more!
