@@ -1,0 +1,18 @@
+Tensorflow and Keras Learning Challenge Day 30
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/guide/random_numbers
+- https://www.tensorflow.org/tutorials/images/transfer_learning_with_hub
+
+# Learning Updates:
+- TensorFlow Hub is a repository of pre-trained TensorFlow models.
+- Learnt how to:
+= Use models from TensorFlow Hub with tf.keras
+= Use an image classification model from TensorFlow Hub
+= Do simple transfer learning to fine-tune a model for your own image classes 
+- TensorFlow provides a set of pseudo-random number generators (RNG), in the tf.random module. 
+- This document describes how you can control the random number generators, and how these generators interact with other tensorflow sub-systems.
+
+
+# Looking forward to Learning more!
