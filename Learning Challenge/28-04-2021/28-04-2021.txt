@@ -1,0 +1,17 @@
+Tensorflow and Keras Learning Challenge Day 31
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/guide/data
+- https://www.tensorflow.org/tutorials/images/data_augmentation
+
+# Learning Updates:
+- Learnt about data augmentation. Data Augmentation is a technique to increase the diversity of your training set by applying random (but realistic) transformations such as image rotation. 
+- Also learnt how to apply data augmentation in two ways - Keras Preprocessing Layers and tf.image.
+- The tf.data API enables you to build complex input pipelines from simple, reusable pieces. 
+- For example, the pipeline for an image model might aggregate data from files in a distributed file system, apply random perturbations to each image, and merge randomly selected images into a batch for training. 
+- The pipeline for a text model might involve extracting symbols from raw text data, converting them to embedding identifiers with a lookup table, and batching together sequences of different lengths. 
+- The tf.data API makes it possible to handle large amounts of data, read from different data formats, and perform complex transformations.
+
+
+# Looking forward to Learning more!
