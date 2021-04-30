@@ -1,0 +1,20 @@
+Tensorflow and Keras Learning Challenge Day 32
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/guide/data_performance
+- https://www.tensorflow.org/tutorials/images/segmentation
+
+# Learning Updates:
+- GPUs and TPUs can radically reduce the time required to execute a single training step.
+- Achieving peak performance requires an efficient input pipeline that delivers data for the next step before the current step has finished. 
+- The tf.data API helps to build flexible and efficient input pipelines. 
+- Learnt how to use the tf.data API to build highly performant TensorFlow input pipelines.
+- Suppose you want to know where an object is located in the image, the shape of that object, which pixel belongs to which object, etc. 
+- In this case you will want to segment the image, i.e., each pixel of the image is given a label. 
+- Thus, the task of image segmentation is to train a neural network to output a pixel-wise mask of the image. 
+- This helps in understanding the image at a much lower level, i.e., the pixel level. 
+- Image segmentation has many applications in medical imaging, self-driving cars and satellite imaging to name a few.
+
+
+# Looking forward to Learning more!
