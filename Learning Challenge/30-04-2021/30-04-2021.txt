@@ -1,0 +1,16 @@
+Tensorflow and Keras Learning Challenge Day 33
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/guide/data_performance_analysis
+- https://www.tensorflow.org/tutorials/text/word_embeddings
+
+# Learning Updates:
+- Learnt to diagnose and fix input pipeline performance issues.
+- Trained word embeddings using a simple Keras model for a sentiment classification task.
+- Then visualized them in the Embedding Projector.
+- Machine learning models take vectors (arrays of numbers) as input. 
+- When working with text, the first thing you must do is come up with a strategy to convert strings to numbers (or to "vectorize" the text) before feeding it to the model. 
+
+
+# Looking forward to Learning more!
