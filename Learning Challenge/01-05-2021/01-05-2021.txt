@@ -1,0 +1,17 @@
+Tensorflow and Keras Learning Challenge Day 34
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/guide/checkpoint
+- https://www.tensorflow.org/tutorials/text/word2vec
+
+# Learning Updates:
+- Word2Vec is not a singular algorithm, rather, it is a family of model architectures and optimizations.
+- These can be used to learn word embeddings from large datasets. 
+- Embeddings learned through Word2Vec have proven to be successful on a variety of downstream natural language processing tasks.
+- The phrase "Saving a TensorFlow model" typically means one of two things:
+1) Checkpoints: They capture the exact value of all parameters (tf.Variable objects) used by a model.
+2) The SavedModel format: This on the other hand includes a serialized description of the computation defined by the model in addition to the parameter values (checkpoint).
+
+
+# Looking forward to Learning more!
