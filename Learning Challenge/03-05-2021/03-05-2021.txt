@@ -1,0 +1,17 @@
+Tensorflow and Keras Learning Challenge Day 36
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/guide/distributed_training
+- https://www.tensorflow.org/tutorials/text/classify_text_with_bert
+
+# Learning Updates:
+- tf.distribute.Strategy is a TensorFlow API to distribute training across multiple GPUs, multiple machines or TPUs.
+- Using this API, you can distribute your existing models and training code with minimal code changes.
+- tf.distribute.Strategy is easy to use, provides good performance out of the box and allows easy switching between strategies
+- Learnt how to fine-tune BERT to perform sentiment analysis on a dataset of plain-text IMDB movie reviews. 
+- Also Learnt how to preprocess text into an appropriate format for training.
+- BERT and other Transformer encoder architectures have been wildly successful on a variety of tasks in NLP (natural language processing). 
+
+
+# Looking forward to Learning more!
