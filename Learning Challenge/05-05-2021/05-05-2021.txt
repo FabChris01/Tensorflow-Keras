@@ -1,0 +1,17 @@
+Tensorflow and Keras Learning Challenge Day 38
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/guide/tpu
+- https://www.tensorflow.org/official_models/fine_tuning_bert
+
+# Learning Updates:
+- TPUs are usually on Cloud TPU workers which are different from the local process running the user python program. 
+- Thus some initialization work needs to be done to connect to the remote cluster and initialize TPUs. 
+- Learnt how to fine-tune a BERT model using the tensorflow-models PIP package.
+- After the TPU is initialized, you can use manual device placement to place the computation on a single TPU device.
+- We used the GLUE MRPC dataset from TFDS for this.
+- The Microsoft Research Paraphrase Corpus (Dolan & Brockett, 2005) is a corpus of sentence pairs automatically extracted from online news sources, with human annotations for whether the sentences in the pair are semantically equivalent.
+
+
+# Looking forward to Learning more!
