@@ -1,0 +1,17 @@
+Tensorflow and Keras Learning Challenge Day 39
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/guide/function
+- https://www.tensorflow.org/tutorials/text/text_generation
+
+# Learning Updates:
+- In TensorFlow 2, eager execution is turned on by default. 
+- The user interface is intuitive and flexible (running one-off operations is much easier and faster)
+- But this can come at the expense of performance and deployability.
+- You can use tf.function to make graphs out of your programs. 
+- It is a transformation tool that creates Python-independent dataflow graphs out of your Python code. 
+- This will help you create performant and portable models, and it is required to use SavedModel.
+
+
+# Looking forward to Learning more!
