@@ -1,0 +1,17 @@
+Tensorflow and Keras Learning Challenge Day 40
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/guide/profiler
+- https://www.tensorflow.org/tutorials/text/nmt_with_attention
+
+# Learning Updates:
+- Profiling helps you understand the hardware resource consumption (time and memory) of the various TensorFlow operations (ops) in your model 
+- It also helps resolve performance bottlenecks and ultimately, make the model execute faster.
+- Used the tools available with the Profiler to track the performance of TensorFlow models. 
+- This was done to record how the model performs on the host (CPU), the device (GPU), or on a combination of both the host and device(s).
+- Also trained a sequence to sequence (seq2seq) model for Spanish to English translation.
+- After training the model, we were able to input a Spanish sentence, such as "¿todavia estan en casa?", and return the English translation: "are you still at home?"	
+
+
+# Looking forward to Learning more!
