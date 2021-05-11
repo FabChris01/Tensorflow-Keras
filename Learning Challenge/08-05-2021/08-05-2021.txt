@@ -1,0 +1,16 @@
+Tensorflow and Keras Learning Challenge Day 41
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/guide/gpu_performance_analysis
+- https://www.tensorflow.org/tutorials/text/image_captioning
+
+# Learning Updates:
+- Offloading computations to GPU might not always be beneficial, particularly for small models. 
+- There are overheads due to data transfer between host (CPU) and device (GPU), as well as overheads due to the latency involved when the host launches GPU kernels. 
+- Good performance is achieved when the host successfully keeps the GPU occupied by offloading enough work.	
+- Learnt about image captioning with an attention-based model.
+- It enables us to see what parts of the image the model focuses on as it generates a caption.
+
+
+# Looking forward to Learning more!
