@@ -1,0 +1,17 @@
+Tensorflow and Keras Learning Challenge Day 42
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/guide/graph_optimization
+- https://www.tensorflow.org/tutorials/text/transformer
+
+# Learning Updates:
+- TensorFlow uses both graph and eager executions to execute computations. 
+- A tf.Graph contains a set of tf.Operation objects (ops) which represent units of computation and tf.Tensor objects which represent the units of data that flow between ops.
+- Grappler is the default graph optimization system in the TensorFlow runtime. 
+- The core idea behind the Transformer model is self-attention—the ability to attend to different positions of the input sequence to compute a representation of that sequence. 
+- Transformer creates stacks of self-attention layers and is explained below in the sections Scaled dot product attention and Multi-head attention.
+- A transformer model handles variable-sized input using stacks of self-attention layers instead of RNNs or CNNs.
+
+
+# Looking forward to Learning more!
