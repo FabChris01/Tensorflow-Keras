@@ -1,0 +1,16 @@
+Tensorflow and Keras Learning Challenge Day 43
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/guide/mixed_precision
+- https://www.tensorflow.org/tutorials/audio/simple_audio
+
+# Learning Updates:
+- Mixed precision is the use of both 16-bit and 32-bit floating-point types in a model during training 
+- This is done to make it run faster and use less memory. 
+- By keeping certain parts of the model in the 32-bit types for numeric stability, the model will have a lower step time and train equally as well in terms of the evaluation metrics such as accuracy. 
+- Learnt how to use the Keras mixed precision API to speed up models. 
+- Using this API can improve performance by more than 3 times on modern GPUs and 60% on TPUs.
+
+
+# Looking forward to Learning more!
