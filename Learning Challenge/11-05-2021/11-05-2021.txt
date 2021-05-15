@@ -1,0 +1,22 @@
+Tensorflow and Keras Learning Challenge Day 44
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/guide/estimator
+- https://www.tensorflow.org/tutorials/audio/transfer_learning_audio
+
+# Learning Updates:
+- tf.estimator is a high-level TensorFlow API. 
+- Estimators encapsulate the following actions:
+= Training
+= Evaluation
+= Prediction
+= Export for serving
+- YAMNet is an audio event classifier that can predict audio events from 521 classes, like laughter, barking, or a siren.
+- Learnt how to:
+= Load and use the YAMNet model for inference.
+= Build a new model using the YAMNet embeddings to classify cat and dog sounds.
+= Evaluate and export your model.
+
+
+# Looking forward to Learning more!
