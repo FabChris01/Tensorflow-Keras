@@ -1,0 +1,19 @@
+Tensorflow and Keras Learning Challenge Day 45
+===============================================
+s
+# Sources:
+- https://www.tensorflow.org/tutorials/structured_data/feature_columns
+- https://www.tensorflow.org/guide/versions
+
+# Learning Updates:
+- TensorFlow follows Semantic Versioning 2.0 (semver) for its public API. 
+- Each release version of TensorFlow has the form MAJOR.MINOR.PATCH. 
+- For example, TensorFlow version 1.2.3 has MAJOR version 1, MINOR version 2, and PATCH version 3. 
+- Learnt how to:
+= Load a CSV file using Pandas.
+= Build an input pipeline to batch and shuffle the rows using tf.data.
+= Map from columns in the CSV to features used to train the model using feature columns.
+= Build, train, and evaluate a model using Keras.
+
+
+# Looking forward to Learning more!
