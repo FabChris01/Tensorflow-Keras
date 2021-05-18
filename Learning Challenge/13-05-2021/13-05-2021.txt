@@ -1,0 +1,16 @@
+Tensorflow and Keras Learning Challenge Day 46
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/tutorials/structured_data/preprocessing_layers
+- https://www.tensorflow.org/tutorials/structured_data/imbalanced_data
+
+# Learning Updates:
+- Learnt how to classify structured data (e.g. tabular data in a CSV).
+- Used Keras to define the model, and preprocessing layers as a bridge to map from columns in a CSV to features used to train the model.
+- Also Learnt how to classify a highly imbalanced dataset in which the number of examples in one class greatly outnumbers the examples in another.
+- Worked with the Credit Card Fraud Detection dataset hosted on Kaggle. 
+- The aim is to detect a mere 492 fraudulent transactions from 284,807 transactions in total. 
+
+
+# Looking forward to Learning more!
