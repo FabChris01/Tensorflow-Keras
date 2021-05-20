@@ -1,0 +1,17 @@
+Tensorflow and Keras Learning Challenge Day 47
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/tutorials/structured_data/time_series
+- https://www.tensorflow.org/decision_forests/tutorials/beginner_colab
+
+# Learning Updates:
+- Learnt about time series forecasting using Tensorflow.
+- Decision Forests (DF) are a large family of Machine Learning algorithms for supervised classification, regression and ranking.
+- As the name suggests, DFs use decision trees as a building block. 
+- Today, the two most popular DF training algorithms are Random Forests and Gradient Boosted Decision Trees. 
+- Both algorithms are ensemble techniques that use multiple decision trees, but differ on how they do it.
+- TensorFlow Decision Forests (TF-DF) is a library for the training, evaluation, interpretation and inference of Decision Forest models.
+
+
+# Looking forward to Learning more!
