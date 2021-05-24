@@ -1,0 +1,17 @@
+Tensorflow and Keras Learning Challenge Day 48
+===============================================
+
+# Sources:
+- https://www.tensorflow.org/tutorials/generative/style_transfer
+- https://www.tensorflow.org/tutorials/generative/deepdream
+
+# Learning Updates:
+- Learnt how to compose one image in the style of another image using a technique called Neural Style Transfer
+- Neural style transfer is an optimization technique used to take two images—a content image and a style reference image (such as an artwork by a famous painter)—and blend them together so the output image looks like the content image, but “painted” in the style of the style reference image.
+- This is implemented by optimizing the output image to match the content statistics of the content image and the style statistics of the style reference image. 
+- These statistics are extracted from the images using a convolutional network.
+- DeepDream is an experiment that visualizes the patterns learned by a neural network. 
+- Similar to when a child watches clouds and tries to interpret random shapes, DeepDream over-interprets and enhances the patterns it sees in an image.
+
+
+# Looking forward to Learning more!
